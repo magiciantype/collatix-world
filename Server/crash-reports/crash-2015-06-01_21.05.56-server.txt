@@ -1,0 +1,226 @@
+---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 6/1/15 9:05 PM
+Description: Exception in server tick loop
+
+cpw.mods.fml.common.LoaderException: java.lang.ClassNotFoundException: net.techbrew.journeymap.JourneyMap
+	at cpw.mods.fml.common.LoadController.transition(LoadController.java:163)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:522)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+Caused by: java.lang.ClassNotFoundException: net.techbrew.journeymap.JourneyMap
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at cpw.mods.fml.common.ModClassLoader.loadClass(ModClassLoader.java:58)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at cpw.mods.fml.common.FMLModContainer.constructMod(FMLModContainer.java:440)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:511)
+	... 5 more
+Caused by: java.lang.RuntimeException: Attempted to load class net/techbrew/journeymap/JourneyMap for invalid side SERVER
+	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:50)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
+	... 32 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.8.0_31, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 3793842280 bytes (3618 MB) / 4068999168 bytes (3880 MB) up to 4068999168 bytes (3880 MB)
+	JVM Flags: 5 total; -Xmn1024M -Xms4096M -Xmx4096M -XX:MaxPermSize=512M -XX:PermSize=512M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.3.1408 149 mods loaded, 149 mods active
+	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed
+	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.3.1408-1.7.10-universal.jar) Unloaded->Constructed
+	Forge{10.13.3.1408} [Minecraft Forge] (forge-1.7.10-10.13.3.1408-1.7.10-universal.jar) Unloaded->Constructed
+	AM2-Preloader{0.0.2} [AMCore] (minecraft.jar) Unloaded->Constructed
+	appliedenergistics2-core{rv2-stable-3} [AppliedEnergistics2 Core] (minecraft.jar) Unloaded->Constructed
+	Aroma1997Core{1.0.2.13} [Aroma1997Core] (aroma1997core-1.0.2.13.jar) Unloaded->Constructed
+	CodeChickenCore{1.0.6.44} [CodeChicken Core] (minecraft.jar) Unloaded->Constructed
+	ImmibisMicroblocks{59.1.0} [Immibis's Microblocks] (immibis-microblocks-59.1.0.jar) Unloaded->Constructed
+	MobiusCore{1.2.5} [MobiusCore] (minecraft.jar) Unloaded->Constructed
+	NotEnoughItems{1.0.4.107} [Not Enough Items] (notenoughitems-1.0.4.107.jar) Unloaded->Constructed
+	OpenEye{0.6} [OpenEye] (openeye-0.6.jar) Unloaded->Constructed
+	modJ_StarMinerCore{0.9.7} [StarMinerCore] (minecraft.jar) Unloaded->Constructed
+	ThaumicTinkerer-preloader{0.1} [Thaumic Tinkerer Core] (minecraft.jar) Unloaded->Constructed
+	VeinMiner_coremod{0.27.1_build.unknown} [Core mod] (minecraft.jar) Unloaded->Constructed
+	OpenModsCore{0.7.3} [OpenModsCore] (minecraft.jar) Unloaded->Constructed
+	<CoFH ASM>{000} [CoFH ASM] (minecraft.jar) Unloaded->Constructed
+	debug{1.0} [debug] (denseores-1.5.jar) Unloaded->Constructed
+	IC2{2.2.726-experimental} [IndustrialCraft 2] (industrialcraft2-2.2.726.jar) Unloaded->Constructed
+	ImmibisCore{59.1.1} [Immibis Core] (immibis-core-59.1.1.jar) Unloaded->Constructed
+	AdvancedMachines{59.0.2} [Advanced Machines] (advanced-machines-59.0.2.jar) Unloaded->Constructed
+	AnimationAPI{1.2.4} [AnimationAPI] (animationapi-1.2.4.jar) Unloaded->Constructed
+	arsmagica2{1.4.0.008} [Ars Magica 2] (am2-1.4.0.008.jar) Unloaded->Constructed
+	appliedenergistics2{rv2-stable-3} [Applied Energistics 2] (appliedenergistics2-2.3.jar) Unloaded->Constructed
+	ArchimedesShips{1.7.10 v1.7.1} [Archimedes' Ships] (archimedesships-1.7.1.jar) Unloaded->Constructed
+	bspkrsCore{6.16} [bspkrsCore] ([1.7.10]bspkrsCore-universal-6.16.jar) Unloaded->Constructed
+	ArmorStatusHUD{1.28} [ArmorStatusHUD] (armorstatushud-1.28.jar) Unloaded->Constructed
+	Aroma1997CoreHelper{1.0.2.13} [Aroma1997Core|Helper] (aroma1997core-1.0.2.13.jar) Unloaded->Constructed
+	iChunUtil{4.2.2} [iChunUtil] (ichunutil-4.2.2.jar) Unloaded->Constructed
+	BackTools{4.0.0} [BackTools] (backtools-4.0.0.jar) Unloaded->Constructed
+	BetterTitleScreen{1.7.10-1.1} [Better Title Screen] (bettertitlescreen-1.1.jar) Unloaded->Errored
+	BiblioCraft{1.10.4} [BiblioCraft] (bibliocraft-1.10.4.jar) Unloaded->Constructed
+	Mantle{1.7.10-0.3.2.jenkins184} [Mantle] (mantle-0.3.2.jar) Unloaded->Constructed
+	Natura{2.2.0} [Natura] (natura-2.2.0.1.jar) Unloaded->Constructed
+	BiomesOPlenty{2.1.0} [Biomes O' Plenty] (biomesoplenty-2.1.0.1034.jar) Unloaded->Constructed
+	BiblioWoodsBoP{1.9} [BiblioWoods Biomes O'Plenty Edition] (bibliowoodsbiomesoplenty-1.9.jar) Unloaded->Constructed
+	CoFHCore{1.7.10R3.0.2} [CoFH Core] (cofhcore-3.0.2.262.jar) Unloaded->Constructed
+	BuildCraft|Core{6.4.16} [BuildCraft] (buildcraft-6.4.16.jar) Unloaded->Constructed
+	Forestry{3.5.6.15} [Forestry for Minecraft] (forestry-3.5.6.15.jar) Unloaded->Constructed
+	BiblioWoodsForestry{1.7} [BiblioWoods Forestry Edition] (bibliowoodsforestry-1.7.jar) Unloaded->Constructed
+	BiblioWoodsNatura{1.5} [BiblioWoods Natura Edition] (bibliowoodsnatura-1.5.jar) Unloaded->Constructed
+	AWWayofTime{v1.3.0a} [Blood Magic: Alchemical Wizardry] (bloodmagic-1.3.0a.1.jar) Unloaded->Constructed
+	Baubles{1.0.1.10} [Baubles] (Baubles-1.7.10-1.0.1.10.jar) Unloaded->Constructed
+	Thaumcraft{4.2.3.5} [Thaumcraft] (thaumcraft-4.2.3.5.jar) Unloaded->Constructed
+	Botania{r1.6-190} [Botania] (botania-1.6.190.jar) Unloaded->Constructed
+	BuildCraft|Builders{6.4.16} [BC Builders] (buildcraft-6.4.16.jar) Unloaded->Constructed
+	BuildCraft|Energy{6.4.16} [BC Energy] (buildcraft-6.4.16.jar) Unloaded->Constructed
+	BuildCraft|Factory{6.4.16} [BC Factory] (buildcraft-6.4.16.jar) Unloaded->Constructed
+	BuildCraft|Transport{6.4.16} [BC Transport] (buildcraft-6.4.16.jar) Unloaded->Constructed
+	BuildCraft|Silicon{6.4.16} [BC Silicon] (buildcraft-6.4.16.jar) Unloaded->Constructed
+	eureka{3.0.2} [Eureka] (Eureka-1.7.10-3.0.2.jar) Unloaded->Constructed
+	bcadditions{2.1.4} [BuildCraft Additions] (buildcraftadditions-2.1.4.jar) Unloaded->Constructed
+	ChickenChunks{1.3.4.19} [ChickenChunks] (chickenchunks-1.3.4.19.jar) Unloaded->Constructed
+	ForgeMultipart{1.2.0.344} [Forge Multipart] (ForgeMultipart-1.7.10-1.2.0.344-universal.jar) Unloaded->Constructed
+	chisel{2.2.1} [Chisel] (chisel2-2.2.1.jar) Unloaded->Constructed
+	CompactSolars{4.4.39.315} [Compact Solar Arrays] (compactsolars-4.4.39.315.jar) Unloaded->Constructed
+	ComputerCraft{1.73} [ComputerCraft] (computercraft-1.73.jar) Unloaded->Constructed
+	DamageIndicatorsMod{3.2.3} [Damage Indicators] (damageindicatorsmod-3.2.3.jar) Unloaded->Constructed
+	DirectionHUD{1.24} [DirectionHUD] (directionhud-1.24.jar) Unloaded->Constructed
+	EnderIO{1.7.10-2.2.8.381} [Ender IO] (enderio-2.2.8.381.jar) Unloaded->Constructed
+	EnderStorage{1.4.7.36} [EnderStorage] (enderstorage-1.4.7.36.jar) Unloaded->Constructed
+	EnderZoo{1.7.10-1.0.11.28} [Ender Zoo] (enderzoo-1.0.11.28.jar) Unloaded->Constructed
+	factorization.notify{1.0} [Factorization Notification System] (factorization-0.8.88.7.jar) Unloaded->Constructed
+	factorization{1.7.10-0.8.88.7} [Factorization] (factorization-0.8.88.7.jar) Unloaded->Constructed
+	EnetBridge{1.4} [EnetBridge] (enetbridge-1.4.jar) Unloaded->Constructed
+	ThermalFoundation{1.7.10R1.0.0} [Thermal Foundation] (thermalfoundation-1.0.0.81.jar) Unloaded->Constructed
+	ExtraUtilities{1.2.5} [Extra Utilities] (extrautilities-1.2.5.jar) Unloaded->Constructed
+	factorization.misc{1.7.10-0.8.88.7} [Factorization Miscellaneous Nonsense] (factorization-0.8.88.7.jar) Unloaded->Constructed
+	FastCraft{1.21} [FastCraft] (fastcraft-1.21.jar) Unloaded->Constructed
+	Waila{1.5.10} [Waila] (waila-1.5.10.jar) Unloaded->Constructed
+	ThaumicTinkerer{unspecified} [Thaumic Tinkerer] (thaumictinkerer-2.5.164.jar) Unloaded->Constructed
+	ForbiddenMagic{1.7.10-0.562} [Forbidden Magic] (forbiddenmagic-0.562.jar) Unloaded->Constructed
+	Hats{4.0.1} [Hats] (hats-4.0.1.jar) Unloaded->Constructed
+	HatStand{4.0.0} [HatStand] (hatstand-4.0.0.jar) Unloaded->Constructed
+	IC2NuclearControl{2.0.8c} [Nuclear Control 2] (ic2nuclearcontrol-2.0.8c.jar) Unloaded->Constructed
+	IGWMod{1.1.1-17} [In-Game wiki Mod] (igwmod-1.1.1-17.jar) Unloaded->Constructed
+	ImmibisPeripherals{59.0.2} [Immibis's Peripherals] (immibis-peripherals-59.0.2.jar) Unloaded->Constructed
+	InfiniTubes{59.0.3} [InfiniTubes] (infinitubes-59.0.3.jar) Unloaded->Constructed
+	inventorytweaks{1.58-147-645ca10} [Inventory Tweaks] (inventorytweaks-1.58.147.jar) Unloaded->Constructed
+	IronChest{6.0.62.742} [Iron Chest] (ironchest-6.0.62.742.jar) Unloaded->Constructed
+	JABBA{1.2.1} [JABBA] (jabba-1.2.1a.jar) Unloaded->Constructed
+	journeymap{5.0.1} [JourneyMap] (journeymap5.0.1.jar) Unloaded->Errored
+	LiquidXP{59.0.0} [Liquid XP] (liquidxp-59.0.0.jar) Unloaded->Constructed
+	MetallurgyCore{4.0.4} [Metallurgy Core] (metallurgycore-4.0.4.18.jar) Unloaded->Constructed
+	ThermalExpansion{1.7.10R4.0.1} [Thermal Expansion] (thermalexpansion-4.0.1.182.jar) Unloaded->Constructed
+	TConstruct{1.7.10-1.8.5.build957} [Tinkers' Construct] (tconstruct-1.8.5.jar) Unloaded->Constructed
+	Metallurgy{4.0.6} [Metallurgy 4] (metallurgy-4.0.6.80.jar) Unloaded->Constructed
+	MineMenu{1.2.0} [MineMenu] (minemenu-1.2.0.b44.jar) Unloaded->Constructed
+	numina{0.4.0.101} [Numina] (numina-0.4.0.101.jar) Unloaded->Constructed
+	powersuits{0.11.0.181} [MachineMuse's Modular Powersuits] (modularpowersuits-0.11.0.181.jar) Unloaded->Constructed
+	Morph{0.9.1} [Morph] (morph-0.9.1.jar) Unloaded->Constructed
+	Morpheus{1.7.10-1.6.4} [Morpheus] (morpheus-1.6.4.jar) Unloaded->Constructed
+	Mystcraft{0.11.10.00} [Mystcraft] (mystcraft-0.11.10.00.jar) Unloaded->Constructed
+	NEIAddons{1.12.8.30} [NEI Addons] (neiaddons-1.12.8.30.jar) Unloaded->Constructed
+	NEIAddons|AppEng{1.12.8.30} [NEI Addons: Applied Energistics 2] (neiaddons-1.12.8.30.jar) Unloaded->Constructed
+	NEIAddons|Botany{1.12.8.30} [NEI Addons: Botany] (neiaddons-1.12.8.30.jar) Unloaded->Constructed
+	NEIAddons|Forestry{1.12.8.30} [NEI Addons: Forestry] (neiaddons-1.12.8.30.jar) Unloaded->Constructed
+	NEIAddons|CraftingTables{1.12.8.30} [NEI Addons: Crafting Tables] (neiaddons-1.12.8.30.jar) Unloaded->Constructed
+	NEIAddons|ExNihilo{1.12.8.30} [NEI Addons: Ex Nihilo] (neiaddons-1.12.8.30.jar) Unloaded->Constructed
+	neiintegration{1.0.9} [NEI Integration] (neiintegration-1.0.9.jar) Unloaded->Constructed
+	recipehandler{0.2} [NoMoreRecipeConflict] (nomorerecipeconflict-0.2.jar) Unloaded->Constructed
+	NotEnoughCodecs{0.3} [NotEnoughCodecs] (notenoughcodecs-0.3-snapshot-11.jar) Unloaded->Constructed
+	OpenMods{0.7.3} [OpenMods] (openmodslib-0.7.3.jar) Unloaded->Constructed
+	OpenBlocks{1.4.3} [OpenBlocks] (openblocks-1.4.3.jar) Unloaded->Constructed
+	OpenPeripheralCore{1.1.1} [OpenPeripheralCore] (openperipheral-aio-4.jar) Unloaded->Constructed
+	OpenPeripheral{0.3.1} [OpenPeripheralAddons] (openperipheral-aio-4.jar) Unloaded->Constructed
+	Railcraft{9.6.1.0} [Railcraft] (railcraft-9.6.1.0.jar) Unloaded->Constructed
+	OpenPeripheralIntegration{0.2.2} [OpenPeripheralIntegration] (openperipheral-aio-4.jar) Unloaded->Constructed
+	MapWriter{2.1.2} [MapWriter] (opis-1.2.5.jar) Unloaded->Constructed
+	Opis{1.2.5} [Opis] (opis-1.2.5.jar) Unloaded->Constructed
+	clayspawn{1.7.2a} [Pam's Clay Spawn] (pamsclayspawn-1.7.2a.zip) Unloaded->Constructed
+	harvestcraft{1.7.10g} [Pam's HarvestCraft] (pamsharvestcraft-1.7.10h.jar) Unloaded->Constructed
+	simplerecipes{1.7.2a} [Pam's Simple Recipes] (pamssimplerecipes-1.7.2a.zip) Unloaded->Constructed
+	PneumaticCraft{1.6.9-73} [PneumaticCraft] (pneumaticcraft-1.6.9.73.jar) Unloaded->Constructed
+	ProjectE{1.7.10-PE1.4.7} [ProjectE] (projecte-1.4.7.jar) Unloaded->Constructed
+	MrTJPCoreMod{1.0.7.14} [MrTJPCore] (MrTJPCore-1.0.7.14-universal.jar) Unloaded->Constructed
+	ProjRed|Core{4.6.1.80} [ProjectRed] (projectred-base-4.6.1.80.jar) Unloaded->Constructed
+	ProjRed|Transmission{4.6.1.80} [ProjectRed-Transmission] (projectred-integration-4.6.1.80.jar) Unloaded->Constructed
+	ProjRed|Transportation{4.6.1.80} [ProjectRed-Transportation] (projectred-mechanical-4.6.1.80.jar) Unloaded->Constructed
+	ProjRed|Exploration{4.6.1.80} [ProjectRed-Exploration] (projectred-world-4.6.1.80.jar) Unloaded->Constructed
+	ProjRed|Compatibility{4.6.1.80} [ProjectRed-Compatibility] (projectred-compat-4.6.1.80.jar) Unloaded->Constructed
+	ProjRed|Integration{4.6.1.80} [ProjectRed-Integration] (projectred-integration-4.6.1.80.jar) Unloaded->Constructed
+	ProjRed|Illumination{4.6.1.80} [ProjectRed-Illumination] (projectred-lighting-4.6.1.80.jar) Unloaded->Constructed
+	ProjRed|Expansion{4.6.1.80} [ProjectRed-Expansion] (projectred-mechanical-4.6.1.80.jar) Unloaded->Constructed
+	RedstoneArsenal{1.7.10R1.1.0RC1} [Redstone Arsenal] (redstonearsenal-1.1.0RC1-19.jar) Unloaded->Constructed
+	ResonantEngine{3.3.0} [Resonant Engine] (resonant-engine-3.3.0.393.jar) Unloaded->Constructed
+	simplyjetpacks{1.5.1} [Simply Jetpacks] (simplyjetpacks-1.5.1.jar) Unloaded->Constructed
+	modJ_StarMiner{0.9.7} [Starminer Mod] (starminer-0.9.7.jar) Unloaded->Constructed
+	StatusEffectHUD{1.27} [StatusEffectHUD] (statuseffecthud-1.27.jar) Unloaded->Constructed
+	StevesCarts{2.0.0.b18} [Steve's Carts 2] (stevescarts2-b18.jar) Unloaded->Constructed
+	StevesFactoryManager{A93} [Steve's Factory Manager] (stevesfactorymanager-A93.jar) Unloaded->Constructed
+	ThaumcraftMobAspects{1.7.2-2A} [Thaumcraft Mob Aspects] (thaumcraftmobaspects-2A.jar) Unloaded->Constructed
+	ThaumicExploration{0.6.0} [Thaumic Exploration] (thaumicexploration-1.1.34.jar) Unloaded->Constructed
+	TiCTooltips{1.2.4} [TiC Tooltips] (tictooltips-1.2.4.jar) Unloaded->Constructed
+	TMechworks{1.7.10-86.e500b88} [Tinkers' Mechworks] (tmechworks-0.2.10.jar) Unloaded->Constructed
+	Translocator{1.1.1.14} [Translocator] (translocator-1.1.1.14.jar) Unloaded->Constructed
+	Tubestuff{59.0.1} [Tubestuff] (tubestuff-59.0.1.jar) Unloaded->Constructed
+	TwilightForest{2.3.7} [The Twilight Forest] (twilightforest-2.3.7.jar) Unloaded->Constructed
+	VeinMiner{0.27.1_build.unknown} [Vein Miner] (veinminer-0.27.1.jar) Unloaded->Constructed
+	VeinMinerModSupport{0.27.1_build.unknown} [Mod Support] (veinminer-0.27.1.jar) Unloaded->Constructed
+	VersionChecker{1.1.8} [Version Checker] (versionchecker-1.1.8.jar) Unloaded->Constructed
+	WailaHarvestability{1.1.2} [Waila Harvestability] (wailaharvestability-1.1.2.jar) Unloaded->Constructed
+	witchery{0.24.1} [Witchery] (witchery-0.24.1.jar) Unloaded->Constructed
+	WR-CBE|Core{1.4.1.9} [WR-CBE Core] (wrcbe-1.4.1.9.jar) Unloaded->Constructed
+	WR-CBE|Addons{1.4.1.9} [WR-CBE Addons] (wrcbe-1.4.1.9.jar) Unloaded->Constructed
+	WR-CBE|Logic{1.4.1.9} [WR-CBE Logic] (wrcbe-1.4.1.9.jar) Unloaded->Constructed
+	McMultipart{1.2.0.344} [Minecraft Multipart Plugin] (ForgeMultipart-1.7.10-1.2.0.344-universal.jar) Unloaded->Constructed
+	aobd{2.6.2} [Another One Bites The Dust] (aobd-2.6.2.jar) Unloaded->Constructed
+	denseores{1.0} [Dense Ores] (denseores-1.5.jar) Unloaded->Constructed
+	ForgeMicroblock{1.2.0.344} [Forge Microblocks] (ForgeMultipart-1.7.10-1.2.0.344-universal.jar) Unloaded->Constructed
+	OpenModsLib class transformers: [stencil_patches:ENABLED],[movement_callback:ENABLED],[map_gen_fix:FINISHED],[gl_capabilities_hook:ENABLED],[player_render_hook:ENABLED]
+	Class transformer null safety: all safe
+	AE2 Version: stable rv2-stable-3 for Forge 10.13.2.1291
+	Mantle Environment: Environment healthy.
+	CoFHCore: -[1.7.10]3.0.2-262
+	ThermalFoundation: -[1.7.10]1.0.0-81
+	ThermalExpansion: -[1.7.10]4.0.1-182
+	TConstruct Environment: Environment healthy.
+	RedstoneArsenal: Lacking version information.
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
