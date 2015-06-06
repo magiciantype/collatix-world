@@ -1,46 +1,176 @@
-[22:14:36] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[22:15:13] [Server thread/INFO]: Loading properties
-[22:15:13] [Server thread/INFO]: Default game type: SURVIVAL
-[22:15:13] [Server thread/INFO]: Generating keypair
-[22:15:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:15:35] [Server thread/INFO]: Preparing level "world"
-[22:15:42] [Server thread/INFO]: Preparing start region for level 0
-[22:15:43] [Server thread/INFO]: Preparing spawn area: 62%
-[22:15:43] [Server thread/INFO]: Done (8.698s)! For help, type "help" or "?"
-[22:17:29] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[22:17:29] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_45]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_45]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_45]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_45]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_45]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_45]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_45]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_45]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_45]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_45]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_45]
-	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:97) [lv.class:?]
-[22:18:02] [Server thread/INFO]: Loading properties
-[22:18:02] [Server thread/INFO]: Default game type: SURVIVAL
-[22:18:02] [Server thread/INFO]: Generating keypair
-[22:18:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:18:21] [Server thread/INFO]: Preparing level "world"
-[22:18:28] [Server thread/INFO]: Preparing start region for level 0
-[22:18:28] [Server thread/INFO]: Done (7.341s)! For help, type "help" or "?"
-[22:18:39] [Server thread/INFO]: Stopping server
-[22:18:39] [Server thread/INFO]: Saving players
-[22:18:39] [Server thread/INFO]: Saving worlds
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/GeostationaryOrbit
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/Torment
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/The Outer Lands
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/Bedrock
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
-[22:18:39] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[00:00:06] [Server thread/INFO]: <Kizuragi> archi
+[00:04:49] [Server thread/INFO]: <_southpaw> H@XX0RZ
+[00:05:09] [Server thread/INFO]: <_southpaw> 1337 SP33K
+[00:11:20] [Server thread/INFO]: <Kizuragi> ??
+[00:11:25] [Server thread/INFO]: <_southpaw> wot?
+[00:11:42] [Server thread/INFO]: <_southpaw> ? Illuminati Confirmed.
+[00:14:50] [Server thread/INFO]: <Kizuragi> ??
+[00:15:25] [Server thread/INFO]: <_southpaw> Falafel
+[00:17:07] [Server thread/INFO]: <_southpaw> [] Illuminati Unconfirmed.
+[00:20:00] [Server thread/INFO]: therruss was slain by Hellhound
+[00:20:40] [Server thread/WARN]: therruss was kicked for floating too long!
+[00:20:40] [Server thread/INFO]: therruss lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[00:20:40] [Server thread/INFO]: therruss left the game
+[00:20:46] [User Authenticator #6/INFO]: UUID of player therruss is b8d3f24c-4e92-446a-8ace-1ec430332b18
+[00:20:47] [Server thread/INFO]: therruss[/192.168.1.1:57477] logged in with entity id 65652 at (135.22947050104858, 67.0, 7.372425908613934)
+[00:20:47] [Server thread/INFO]: therruss joined the game
+[00:21:24] [Server thread/INFO]: therruss has just earned the achievement [Learning to Tinker]
+[00:22:36] [Server thread/WARN]: _southpaw moved wrongly!
+[00:33:15] [Server thread/WARN]: _southpaw moved wrongly!
+[00:42:58] [Server thread/INFO]: Armored Furious Zombie was burnt to a crisp whilst fighting Kizuragi
+[00:51:48] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 129.5,74.5,-126.5]
+[00:52:05] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 131.5,64.5,-25.5]
+[00:52:18] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 129.5,74.5,-126.5]
+[00:53:28] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 137.5,64.5,18.5]
+[01:03:06] [Server thread/INFO]: [therruss: Set own game mode to Creative Mode]
+[01:03:46] [Server thread/INFO]: [therruss: Set own game mode to Adventure Mode]
+[01:03:52] [Server thread/INFO]: <therruss> gamemode 3
+[01:04:10] [Server thread/INFO]: [therruss: Set own game mode to Survival Mode]
+[01:04:43] [Server thread/ERROR]: Couldn't process command: 'help'
+java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.util.ComparableTimSort.mergeHi(Unknown Source) ~[?:1.8.0_45]
+	at java.util.ComparableTimSort.mergeAt(Unknown Source) ~[?:1.8.0_45]
+	at java.util.ComparableTimSort.mergeForceCollapse(Unknown Source) ~[?:1.8.0_45]
+	at java.util.ComparableTimSort.sort(Unknown Source) ~[?:1.8.0_45]
+	at java.util.Arrays.sort(Unknown Source) ~[?:1.8.0_45]
+	at java.util.Arrays.sort(Unknown Source) ~[?:1.8.0_45]
+	at java.util.ArrayList.sort(Unknown Source) ~[?:1.8.0_45]
+	at java.util.Collections.sort(Unknown Source) ~[?:1.8.0_45]
+	at net.minecraft.command.CommandHelp.func_71534_d(SourceFile:84) ~[au.class:?]
+	at net.minecraft.command.CommandHelp.func_71515_b(SourceFile:38) ~[au.class:?]
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:94) [z.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:739) [nh.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:718) [nh.class:?]
+	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:37) [ir.class:?]
+	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:9) [ir.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212) [ej.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165) [nc.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[01:04:50] [Server thread/ERROR]: Couldn't process command: 'help'
+java.lang.IllegalArgumentException: Comparison method violates its general contract!
+	at java.util.ComparableTimSort.mergeHi(Unknown Source) ~[?:1.8.0_45]
+	at java.util.ComparableTimSort.mergeAt(Unknown Source) ~[?:1.8.0_45]
+	at java.util.ComparableTimSort.mergeForceCollapse(Unknown Source) ~[?:1.8.0_45]
+	at java.util.ComparableTimSort.sort(Unknown Source) ~[?:1.8.0_45]
+	at java.util.Arrays.sort(Unknown Source) ~[?:1.8.0_45]
+	at java.util.Arrays.sort(Unknown Source) ~[?:1.8.0_45]
+	at java.util.ArrayList.sort(Unknown Source) ~[?:1.8.0_45]
+	at java.util.Collections.sort(Unknown Source) ~[?:1.8.0_45]
+	at net.minecraft.command.CommandHelp.func_71534_d(SourceFile:84) ~[au.class:?]
+	at net.minecraft.command.CommandHelp.func_71515_b(SourceFile:38) ~[au.class:?]
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:94) [z.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:739) [nh.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:718) [nh.class:?]
+	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:37) [ir.class:?]
+	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:9) [ir.class:?]
+	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212) [ej.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165) [nc.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) [lt.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[01:07:01] [Server thread/INFO]: _southpaw has just earned the achievement [We Need to Go Deeper]
+[01:07:06] [Server thread/INFO]: [Kizuragi: Set own game mode to Creative Mode]
+[01:09:48] [Server thread/INFO]: [therruss: Set own game mode to Creative Mode]
+[01:09:52] [Server thread/INFO]: <therruss> t
+[01:10:12] [Server thread/INFO]: [therruss: Set own game mode to Survival Mode]
+[01:10:14] [Server thread/INFO]: _southpaw went up in flames.
+[01:10:26] [Server thread/INFO]: therruss went up in flames.
+[01:10:27] [Server thread/WARN]: _southpaw moved wrongly!
+[01:11:25] [Server thread/INFO]: therruss went up in flames.
+[01:12:15] [Server thread/INFO]: therruss went up in flames.
+[01:13:58] [Server thread/INFO]: [Kizuragi: Set own game mode to Survival Mode]
+[01:27:28] [Server thread/INFO]: <_southpaw> HEH HEH HEH EHEH HEHE HEHE
+[01:27:41] [Server thread/INFO]: <_southpaw> HEHUEHUEHUEHEUHEUHEUHE
+[01:43:39] [Server thread/INFO]: <_southpaw> umad bro
+[01:43:39] [Server thread/INFO]: <_southpaw> no
+[01:43:41] [Server thread/INFO]: <_southpaw> im furiou
+[01:46:30] [Server thread/INFO]: <_southpaw> southpaw
+[01:46:32] [Server thread/INFO]: <_southpaw> southblade
+[01:57:28] [Server thread/INFO]: [therruss: Set own game mode to Adventure Mode]
+[01:57:33] [Server thread/INFO]: <therruss> gamemode 1
+[01:57:40] [Server thread/INFO]: [therruss: Set own game mode to Creative Mode]
+[01:58:11] [Server thread/INFO]: [therruss: Set own game mode to Survival Mode]
+[02:10:23] [Server thread/INFO]: [_southpaw: Teleported _southpaw to Kizuragi]
+[02:10:23] [Server thread/INFO]: [Kizuragi: Teleported Kizuragi to 135.5,64.5,18.5]
+[02:10:41] [Server thread/INFO]: _southpaw fell from a high place
+[02:10:46] [Server thread/WARN]: _southpaw moved wrongly!
+[02:20:01] [Server thread/INFO]: <_southpaw> O Illuminati Unconfirmed
+[02:23:17] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 137.5,64.5,18.5]
+[02:28:34] [Server thread/INFO]: [therruss: Teleported therruss to 134.5,64.5,21.5]
+[02:42:39] [Server thread/INFO]: _southpaw has just earned the achievement [Energy Flow]
+[02:43:11] [Server thread/INFO]: [Kizuragi: Teleported Kizuragi to 135.5,64.5,18.5]
+[02:49:28] [Server thread/INFO]: Kizuragi has just earned the achievement [All that Matters.]
+[03:06:58] [Server thread/INFO]: Kizuragi has just earned the achievement [Hard as a rock]
+[03:10:13] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 129.5,74.5,-126.5]
+[03:10:19] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 131.5,64.5,-25.5]
+[03:12:23] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 129.5,74.5,-126.5]
+[03:12:37] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 131.5,64.5,-25.5]
+[03:14:03] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 137.5,64.5,18.5]
+[03:17:43] [Server thread/INFO]: <_southpaw> zzzzzz
+[03:19:27] [Server thread/INFO]: [_southpaw: Teleported _southpaw to 131.5,64.5,-25.5]
+[03:21:26] [Server thread/WARN]: therruss was kicked for floating too long!
+[03:21:26] [Server thread/INFO]: therruss lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[03:21:26] [Server thread/INFO]: therruss left the game
+[03:21:35] [User Authenticator #7/INFO]: UUID of player therruss is b8d3f24c-4e92-446a-8ace-1ec430332b18
+[03:21:35] [Server thread/INFO]: therruss[/192.168.1.1:57973] logged in with entity id 343131 at (135.33976558638176, 67.0, 7.541790535589493)
+[03:21:35] [Server thread/INFO]: therruss joined the game
+[03:21:43] [Server thread/WARN]: therruss was kicked for floating too long!
+[03:21:43] [Server thread/INFO]: therruss lost connection: TextComponent{text='Flying is not enabled on this server', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[03:21:43] [Server thread/INFO]: therruss left the game
+[03:21:50] [User Authenticator #8/INFO]: UUID of player therruss is b8d3f24c-4e92-446a-8ace-1ec430332b18
+[03:21:51] [Server thread/INFO]: therruss[/192.168.1.1:57978] logged in with entity id 343230 at (135.33976558638176, 67.0, 7.541790535589493)
+[03:21:51] [Server thread/INFO]: therruss joined the game
+[03:23:46] [Server thread/WARN]: _southpaw moved wrongly!
+[03:32:00] [Server thread/INFO]: <_southpaw> RE Battery?
+[03:32:12] [Server thread/INFO]: <Kizuragi> did u drop throwing knifes
+[03:32:22] [Server thread/INFO]: <Kizuragi> etherium
+[03:32:27] [Server thread/INFO]: <_southpaw> nope
+[03:32:33] [Server thread/INFO]: <_southpaw> i wanted those tho
+[03:32:34] [Server thread/INFO]: <_southpaw> badly
+[03:32:37] [Server thread/INFO]: <_southpaw> those are almost thebest
+[03:32:39] [Server thread/INFO]: <Kizuragi> err electrum
+[03:32:44] [Server thread/INFO]: <_southpaw> electrum are good too
+[03:32:54] [Server thread/INFO]: <_southpaw> those are what i use
+[03:35:47] [Server thread/INFO]: _southpaw fell out of the world
+[03:35:53] [Server thread/INFO]: _southpaw fell out of the world
+[03:35:59] [Server thread/INFO]: _southpaw fell out of the world
+[03:36:05] [Server thread/WARN]: _southpaw moved wrongly!
+[03:36:08] [Server thread/INFO]: _southpaw fell out of the world
+[03:36:18] [Server thread/INFO]: _southpaw fell out of the world
+[03:36:25] [Server thread/INFO]: _southpaw fell out of the world
+[03:39:10] [Server thread/INFO]: [therruss: Kicked _southpaw from the game]
+[03:39:10] [Server thread/INFO]: _southpaw lost connection: TextComponent{text='Kicked by an operator.', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[03:39:10] [Server thread/INFO]: _southpaw left the game
+[03:39:25] [User Authenticator #9/INFO]: UUID of player _southpaw is dc0e01fb-2024-4bd7-a2e8-cf3c9eb3b48d
+[03:39:29] [Server thread/INFO]: _southpaw[/74.194.81.20:53620] logged in with entity id 346554 at (132.1231297114399, 62.0, 38.80146084786509)
+[03:39:29] [Server thread/INFO]: _southpaw (formerly known as the_knight120) joined the game
+[03:39:48] [Server thread/INFO]: [therruss: Kicked _southpaw from the game]
+[03:39:48] [Server thread/INFO]: _southpaw lost connection: TextComponent{text='Kicked by an operator.', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[03:39:48] [Server thread/INFO]: _southpaw left the game
+[03:39:56] [User Authenticator #10/INFO]: UUID of player _southpaw is dc0e01fb-2024-4bd7-a2e8-cf3c9eb3b48d
+[03:40:00] [Server thread/INFO]: _southpaw[/74.194.81.20:53922] logged in with entity id 346650 at (134.36203315535934, 62.0, 37.548985834250665)
+[03:40:00] [Server thread/INFO]: _southpaw (formerly known as the_knight120) joined the game
+[03:40:02] [Server thread/INFO]: [therruss: Set own game mode to Creative Mode]
+[03:40:27] [Server thread/INFO]: [therruss: Set own game mode to Survival Mode]
+[03:43:29] [Server thread/INFO]: <_southpaw> ADMIN ABOOSE
+[03:43:31] [Server thread/INFO]: <_southpaw> OWNER ABOOSE
+[03:43:52] [Server thread/INFO]: <_southpaw> TLDH
+[03:45:13] [Server thread/WARN]: _southpaw moved wrongly!
+[03:48:36] [Server thread/INFO]: <_southpaw> no kidding
+[03:48:37] [Server thread/INFO]: <_southpaw> a
+[03:50:24] [Server thread/INFO]: therruss suffocated in a wall
+[03:51:10] [Server thread/WARN]: therruss moved wrongly!
+[03:51:13] [Server thread/WARN]: _southpaw moved wrongly!
+[03:52:01] [Server thread/INFO]: _southpaw lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[03:52:01] [Server thread/INFO]: _southpaw left the game
+[03:52:20] [Server thread/INFO]: [Kizuragi: Teleported Kizuragi to 135.5,64.5,18.5]
+[03:57:53] [Server thread/INFO]: Kizuragi lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[03:57:53] [Server thread/INFO]: Kizuragi left the game
+[03:59:03] [Server thread/INFO]: therruss lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[03:59:03] [Server thread/INFO]: therruss left the game
