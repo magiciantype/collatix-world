@@ -33,3 +33,12 @@ java.lang.IllegalArgumentException: Comparison method violates its general contr
 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) [MinecraftServer.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
 	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
+[01:14:24] [Server thread/INFO]: <therruss> projecte/setemc 256
+[01:18:40] [Server thread/WARN]: therruss moved wrongly!
+[01:33:55] [Server thread/WARN]: therruss moved wrongly!
+[02:05:18] [Server thread/WARN]: therruss moved wrongly!
+[02:12:03] [Server thread/WARN]: therruss moved wrongly!
+[02:13:36] [Server thread/WARN]: therruss moved wrongly!
+[02:14:47] [Server thread/INFO]: [therruss: Teleported therruss to 128.5,78.5,28.5]
+[02:22:33] [Server thread/INFO]: therruss lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[02:22:33] [Server thread/INFO]: therruss left the game
