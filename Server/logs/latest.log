@@ -1,109 +1,486 @@
-[20:44:51] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[20:45:23] [Server thread/INFO]: Loading properties
-[20:45:23] [Server thread/INFO]: Default game type: SURVIVAL
-[20:45:23] [Server thread/INFO]: Generating keypair
-[20:45:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:45:42] [Server thread/INFO]: Preparing level "world"
-[20:45:49] [Server thread/INFO]: Preparing start region for level 0
-[20:45:50] [Server thread/INFO]: Preparing spawn area: 81%
-[20:45:50] [Server thread/INFO]: Done (8.461s)! For help, type "help" or "?"
-[20:46:23] [User Authenticator #1/INFO]: UUID of player therruss is b8d3f24c-4e92-446a-8ace-1ec430332b18
-[20:46:24] [Server thread/INFO]: therruss[/192.168.1.1:50565] logged in with entity id 1189 at (135.5218117560002, 62.0, 32.446691630730975)
-[20:46:24] [Server thread/INFO]: therruss joined the game
-[20:47:11] [Server thread/INFO]: com.mojang.authlib.GameProfile@2d06e955[id=<null>,name=Kizuragi,properties={},legacy=false] (/73.151.79.149:59451) lost connection: Disconnected
-[20:51:15] [User Authenticator #2/INFO]: UUID of player Kizuragi is fdf2af50-bc83-46d4-b77f-478b7112cc10
-[20:51:19] [Server thread/INFO]: Kizuragi[/73.151.79.149:59840] logged in with entity id 3181 at (141.5, 65.00199847221374, 24.5)
-[20:51:19] [Server thread/INFO]: Kizuragi joined the game
-[20:57:36] [Server thread/INFO]: [therruss: Teleported therruss to -179.5,180.5,57.5]
-[20:57:40] [Server thread/INFO]: therruss fell from a high place
-[20:59:12] [Server thread/INFO]: [therruss: Teleported therruss to -179.5,70.5,57.5]
-[20:59:20] [Server thread/INFO]: [Kizuragi: Teleported Kizuragi to therruss]
-[21:03:29] [Server thread/INFO]: [therruss: Teleported therruss to 134.5,64.5,21.5]
-[21:05:15] [Server thread/INFO]: [therruss: Teleported therruss to Kizuragi]
-[21:07:33] [Server thread/INFO]: [therruss: Teleported therruss to 134.5,64.5,21.5]
-[21:07:44] [Server thread/INFO]: [therruss: Teleported therruss to -457.5,81.5,-163.5]
-[21:08:02] [Server thread/ERROR]: Couldn't process command: 'help'
-java.lang.IllegalArgumentException: Comparison method violates its general contract!
-	at java.util.ComparableTimSort.mergeLo(Unknown Source) ~[?:1.8.0_45]
-	at java.util.ComparableTimSort.mergeAt(Unknown Source) ~[?:1.8.0_45]
-	at java.util.ComparableTimSort.mergeCollapse(Unknown Source) ~[?:1.8.0_45]
-	at java.util.ComparableTimSort.sort(Unknown Source) ~[?:1.8.0_45]
-	at java.util.Arrays.sort(Unknown Source) ~[?:1.8.0_45]
-	at java.util.Arrays.sort(Unknown Source) ~[?:1.8.0_45]
-	at java.util.ArrayList.sort(Unknown Source) ~[?:1.8.0_45]
-	at java.util.Collections.sort(Unknown Source) ~[?:1.8.0_45]
-	at net.minecraft.command.CommandHelp.func_71534_d(SourceFile:84) ~[au.class:?]
-	at net.minecraft.command.CommandHelp.func_71515_b(SourceFile:38) ~[au.class:?]
-	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:94) [z.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:739) [nh.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:718) [nh.class:?]
-	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:37) [ir.class:?]
-	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:9) [ir.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212) [ej.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165) [nc.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) [lt.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
-[21:08:07] [Server thread/ERROR]: Couldn't process command: 'help'
-java.lang.IllegalArgumentException: Comparison method violates its general contract!
-	at java.util.ComparableTimSort.mergeLo(Unknown Source) ~[?:1.8.0_45]
-	at java.util.ComparableTimSort.mergeAt(Unknown Source) ~[?:1.8.0_45]
-	at java.util.ComparableTimSort.mergeCollapse(Unknown Source) ~[?:1.8.0_45]
-	at java.util.ComparableTimSort.sort(Unknown Source) ~[?:1.8.0_45]
-	at java.util.Arrays.sort(Unknown Source) ~[?:1.8.0_45]
-	at java.util.Arrays.sort(Unknown Source) ~[?:1.8.0_45]
-	at java.util.ArrayList.sort(Unknown Source) ~[?:1.8.0_45]
-	at java.util.Collections.sort(Unknown Source) ~[?:1.8.0_45]
-	at net.minecraft.command.CommandHelp.func_71534_d(SourceFile:84) ~[au.class:?]
-	at net.minecraft.command.CommandHelp.func_71515_b(SourceFile:38) ~[au.class:?]
-	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:94) [z.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:739) [nh.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:718) [nh.class:?]
-	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:37) [ir.class:?]
-	at net.minecraft.network.play.client.C01PacketChatMessage.func_148833_a(SourceFile:9) [ir.class:?]
-	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:212) [ej.class:?]
-	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:165) [nc.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:659) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334) [lt.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685) [li.class:?]
-[21:09:30] [Server thread/INFO]: [therruss: Teleported therruss to 134.5,64.5,21.5]
-[21:09:43] [Server thread/INFO]: [therruss: Teleported therruss to -457.5,81.5,-163.5]
-[21:10:20] [Server thread/INFO]: [therruss: Teleported therruss to 134.5,64.5,21.5]
-[21:10:22] [Server thread/INFO]: [Kizuragi: Changing to clear weather]
-[21:11:12] [Server thread/INFO]: [therruss: Teleported therruss to -457.5,81.5,-163.5]
-[21:12:26] [Server thread/INFO]: [therruss: Teleported therruss to 134.5,64.5,21.5]
-[21:12:34] [Server thread/INFO]: [Kizuragi: Changing to rainy weather]
-[21:12:45] [Server thread/INFO]: [therruss: Teleported therruss to -457.5,81.5,-163.5]
-[21:13:21] [Server thread/INFO]: [therruss: Teleported therruss to 134.5,64.5,21.5]
-[21:14:41] [Server thread/INFO]: [therruss: Teleported therruss to -457.5,81.5,-163.5]
-[21:16:43] [Server thread/INFO]: [Kizuragi: Changing to clear weather]
-[21:18:35] [User Authenticator #3/INFO]: UUID of player TheXeon is 795b7a4f-9ca5-4e26-8a1a-4ac27efd147b
-[21:18:39] [Server thread/INFO]: TheXeon[/71.193.8.227:7265] logged in with entity id 20080 at (-535.3020371491531, 121.0, -131.23674595180427)
-[21:18:39] [Server thread/INFO]: TheXeon joined the game
-[21:18:57] [Server thread/INFO]: <TheXeon> yo
-[21:19:01] [Server thread/INFO]: [Kizuragi: Teleported Kizuragi to TheXeon]
-[21:19:03] [Server thread/INFO]: <therruss> sorry...
-[21:19:07] [Server thread/INFO]: <TheXeon> need an invite to comms
-[21:19:11] [Server thread/INFO]: <Kizuragi> k
-[21:20:08] [Server thread/INFO]: [TheXeon: Teleported TheXeon to therruss]
-[21:21:10] [Server thread/INFO]: [Kizuragi: Teleported Kizuragi to 135.5,64.5,18.5]
-[21:21:40] [Server thread/INFO]: [TheXeon: Teleported TheXeon to Kizuragi]
-[21:23:39] [Server thread/INFO]: [Kizuragi: Teleported Kizuragi to -456.5,81.5,-158.5]
-[21:28:32] [Server thread/INFO]: [TheXeon: Teleported TheXeon to therruss]
-[21:29:07] [Server thread/INFO]: [TheXeon: Game rule has been updated]
-[21:29:14] [Server thread/INFO]: [TheXeon: Game rule has been updated]
-[21:30:23] [Server thread/INFO]: [TheXeon: Teleported TheXeon to 109.5,77.5,31.5]
-[21:33:05] [Server thread/INFO]: [TheXeon: Teleported TheXeon to 109.5,77.5,31.5]
-[21:34:12] [Server thread/INFO]: [Kizuragi: Teleported Kizuragi to 135.5,64.5,18.5]
-[21:34:58] [Server thread/INFO]: therruss has just earned the achievement [Benchmarking]
-[21:37:17] [Server thread/INFO]: [therruss: Teleported therruss to 134.5,64.5,21.5]
-[21:37:52] [Server thread/INFO]: [therruss: Teleported therruss to -457.5,81.5,-163.5]
-[21:43:03] [Server thread/INFO]: [Kizuragi: Teleported Kizuragi to -456.5,81.5,-158.5]
-[21:46:48] [Server thread/INFO]: therruss lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[21:46:48] [Server thread/INFO]: therruss left the game
-[21:46:51] [Server thread/INFO]: Kizuragi lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
-[21:46:51] [Server thread/INFO]: Kizuragi left the game
+[00:07:43] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[00:08:33] [Server thread/INFO]: Loading properties
+[00:08:33] [Server thread/INFO]: Default game type: SURVIVAL
+[00:08:33] [Server thread/INFO]: Generating keypair
+[00:08:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:09:01] [Server thread/INFO]: Preparing level "world"
+[00:09:09] [Server thread/INFO]: Preparing start region for level 0
+[00:09:10] [Server thread/INFO]: Preparing spawn area: 39%
+[00:09:11] [Server thread/INFO]: Done (10.243s)! For help, type "help" or "?"
+[00:11:30] [User Authenticator #1/INFO]: UUID of player therruss is b8d3f24c-4e92-446a-8ace-1ec430332b18
+[00:11:31] [Server thread/INFO]: therruss[/192.168.1.1:51333] logged in with entity id 1324 at (-467.65248742629797, 77.0, -203.7009077844172)
+[00:11:31] [Server thread/INFO]: therruss joined the game
+[00:12:00] [User Authenticator #2/INFO]: UUID of player TheXeon is 795b7a4f-9ca5-4e26-8a1a-4ac27efd147b
+[00:12:04] [Server thread/INFO]: TheXeon[/71.193.8.227:2278] logged in with entity id 1443 at (-1391.2187084253947, 63.31857731274046, 34.6999999880791)
+[00:12:04] [Server thread/INFO]: TheXeon joined the game
+[00:12:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2194ms behind, skipping 43 tick(s)
+[00:12:42] [Server thread/INFO]: [TheXeon: Teleported TheXeon to therruss]
+[00:21:17] [Server thread/INFO]: <TheXeon> 'Skrub' -Magic 2k15
+[00:26:33] [Server thread/INFO]: <TheXeon> http://ftbwiki.org/Thermal_Expansion_4
+[00:35:32] [Server thread/INFO]: <TheXeon> http://bfy.tw/GFt
+[00:40:10] [Server thread/INFO]: [TheXeon: Teleported TheXeon to therruss]
+[00:41:11] [Server thread/INFO]: <therruss> magiciantype.noip.me
+[00:42:05] [Server thread/INFO]: [TheXeon: Teleported TheXeon to -456.5,81.5,-152.5]
+[00:42:32] [Server thread/INFO]: TheXeon blew up
+[00:42:40] [Server thread/WARN]: TheXeon moved wrongly!
+[00:42:46] [Server thread/INFO]: [TheXeon: Teleported TheXeon to -456.5,81.5,-152.5]
+[00:43:35] [Server thread/INFO]: therruss blew up
+[00:43:54] [Server thread/INFO]: [TheXeon: Added Tonatiuh to the whitelist]
+[00:44:18] [User Authenticator #3/INFO]: UUID of player Tonatiuh_ is 6dc7be8d-f842-4a48-ab8b-400c28c5d840
+[00:44:18] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@72495d8e[id=6dc7be8d-f842-4a48-ab8b-400c28c5d840,name=Tonatiuh_,properties={textures=[com.mojang.authlib.properties.Property@624ba085]},legacy=false] (/104.33.169.19:33314): You are not white-listed on this server!
+[00:44:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@72495d8e[id=6dc7be8d-f842-4a48-ab8b-400c28c5d840,name=Tonatiuh_,properties={textures=[com.mojang.authlib.properties.Property@624ba085]},legacy=false] (/104.33.169.19:33314) lost connection: You are not white-listed on this server!
+[00:44:30] [User Authenticator #4/INFO]: UUID of player Tonatiuh_ is 6dc7be8d-f842-4a48-ab8b-400c28c5d840
+[00:44:30] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@39ce0aa[id=6dc7be8d-f842-4a48-ab8b-400c28c5d840,name=Tonatiuh_,properties={textures=[com.mojang.authlib.properties.Property@4316d98]},legacy=false] (/104.33.169.19:33146): You are not white-listed on this server!
+[00:44:30] [Server thread/INFO]: com.mojang.authlib.GameProfile@39ce0aa[id=6dc7be8d-f842-4a48-ab8b-400c28c5d840,name=Tonatiuh_,properties={textures=[com.mojang.authlib.properties.Property@4316d98]},legacy=false] (/104.33.169.19:33146) lost connection: You are not white-listed on this server!
+[00:46:19] [Server thread/INFO]: [TheXeon: Removed Tonatiuh from the whitelist]
+[00:46:26] [Server thread/INFO]: [TheXeon: Added Tonatiuh_ to the whitelist]
+[00:47:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@34ea031b[id=<null>,name=Tonatiuh_,properties={},legacy=false] (/104.33.169.19:45608) lost connection: Disconnected
+[00:47:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@7223e2ea[id=<null>,name=Tonatiuh_,properties={},legacy=false] (/104.33.169.19:40371) lost connection: Disconnected
+[00:47:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@4c244fdc[id=<null>,name=Tonatiuh_,properties={},legacy=false] (/104.33.169.19:40256) lost connection: Disconnected
+[00:52:09] [Server thread/INFO]: [TheXeon: Teleported TheXeon to TheXeon]
+[00:52:13] [Server thread/INFO]: [TheXeon: Teleported TheXeon to therruss]
+[00:52:13] [Server thread/WARN]: Fetching addPacket for removed entity
+[00:52:13] [Server thread/WARN]: Fetching addPacket for removed entity
+[00:52:21] [Server thread/INFO]: [TheXeon: Teleported TheXeon to -456.5,81.5,-152.5]
+[00:52:41] [Server thread/INFO]: [TheXeon: Changing to clear weather]
+[00:58:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@f62c047[id=<null>,name=Tonatiuh_,properties={},legacy=false] (/104.33.169.19:36780) lost connection: Disconnected
+[01:01:32] [Server thread/WARN]: therruss moved wrongly!
+[01:04:28] [Server thread/INFO]: [therruss: Teleported therruss to TheXeon]
+[01:05:11] [Server thread/INFO]: com.mojang.authlib.GameProfile@47733853[id=<null>,name=Tonatiuh_,properties={},legacy=false] (/104.33.169.19:34436) lost connection: Disconnected
+[01:05:24] [Server thread/INFO]: com.mojang.authlib.GameProfile@5f058769[id=<null>,name=Tonatiuh_,properties={},legacy=false] (/104.33.169.19:48816) lost connection: Disconnected
+[01:08:49] [Server thread/INFO]: <TheXeon> http://ae-mod.info/Getting-Started/
+[01:10:55] [User Authenticator #5/INFO]: UUID of player Tonatiuh_ is 6dc7be8d-f842-4a48-ab8b-400c28c5d840
+[01:11:00] [Server thread/INFO]: Tonatiuh_[/104.33.169.19:39565] logged in with entity id 84859 at (-458.5, 97.0, -149.5)
+[01:11:00] [Server thread/INFO]: Tonatiuh_ joined the game
+[01:11:20] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[01:11:28] [Server thread/INFO]: <therruss> hi tonah!
+[01:11:46] [Server thread/INFO]: <Tonatiuh_> ahh
+[01:11:49] [Server thread/INFO]: Tonatiuh_ blew up
+[01:12:01] [Server thread/INFO]: <Tonatiuh_> ok im here
+[01:12:07] [Server thread/INFO]: <therruss> hi
+[01:12:09] [Server thread/INFO]: <TheXeon> yo
+[01:12:22] [Server thread/INFO]: <Tonatiuh_> no more lol
+[01:12:22] [Server thread/INFO]: <therruss> welcome to thye team
+[01:12:31] [Server thread/INFO]: <Tonatiuh_> nice place
+[01:12:44] [Server thread/INFO]: <Tonatiuh_> so much power wasted lol
+[01:12:45] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Taking Inventory]
+[01:12:47] [Server thread/INFO]: <therruss> k
+[01:13:00] [Server thread/INFO]: <therruss> go to bed
+[01:13:08] [Server thread/INFO]: <therruss> yay
+[01:13:13] [Server thread/INFO]: <therruss> solare power
+[01:13:21] [Server thread/INFO]: <Tonatiuh_> nice
+[01:13:30] [Server thread/INFO]: <therruss> lots of stoof
+[01:13:32] [Server thread/INFO]: <therruss> now
+[01:13:35] [Server thread/INFO]: <therruss> ae
+[01:13:38] [Server thread/INFO]: <therruss> lets do this
+[01:13:46] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Getting Wood]
+[01:13:52] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Benchmarking]
+[01:14:05] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Time to Mine!]
+[01:14:09] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Time to Strike!]
+[01:14:16] [Server thread/INFO]: <Tonatiuh_> basic achieves
+[01:14:17] [Server thread/INFO]: <therruss> find me some nether and certus quartz
+[01:14:24] [Server thread/INFO]: <therruss> lets get started
+[01:14:55] [Server thread/INFO]: <Tonatiuh_> here
+[01:17:50] [Server thread/INFO]: <Tonatiuh_> can i use this nano sword
+[01:18:01] [Server thread/INFO]: <therruss> noh
+[01:18:15] [Server thread/INFO]: <Tonatiuh_> ok :p
+[01:19:09] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Getting an Upgrade]
+[01:19:09] [Server thread/INFO]: therruss blew up
+[01:19:24] [Server thread/INFO]: <therruss> gib meh nano sword pls
+[01:19:28] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Monster Hunter]
+[01:19:30] [Server thread/INFO]: <therruss> tonah\
+[01:19:34] [Server thread/INFO]: <therruss> i needz it
+[01:19:51] [Server thread/INFO]: <Tonatiuh_> its in chest
+[01:19:56] [Server thread/INFO]: <therruss> keh
+[01:20:06] [Server thread/INFO]: <Tonatiuh_> yes i can hear
+[01:20:48] [Server thread/INFO]: <TheXeon> hi
+[01:23:48] [Server thread/INFO]: [therruss: Set own game mode to Survival Mode]
+[01:23:56] [Server thread/INFO]: [therruss: Set own game mode to Creative Mode]
+[01:24:03] [Server thread/INFO]: Tonatiuh_ fell from a high place
+[01:24:25] [Server thread/INFO]: <Tonatiuh_> so what are we actually making
+[01:25:01] [Server thread/INFO]: <TheXeon> 557056
+[01:25:31] [Server thread/INFO]: [therruss: Set own game mode to Survival Mode]
+[01:25:46] [Server thread/INFO]: <Tonatiuh_> i remember making these in tekkit
+[01:25:56] [Server thread/INFO]: <TheXeon> what?
+[01:26:08] [Server thread/INFO]: <Tonatiuh_> the red matter
+[01:26:12] [Server thread/INFO]: <TheXeon> oh yea
+[01:26:26] [Server thread/INFO]: <Tonatiuh_> i mass frabicated it
+[01:26:36] [Server thread/INFO]: <Tonatiuh_> i had this whole system
+[01:28:03] [Server thread/INFO]: <Tonatiuh_> alright the basics we need are ME controller, ME access Terminal, Me Cable, and Me Dark Cable
+[01:28:51] [Server thread/INFO]: <Tonatiuh_> yup
+[01:29:13] [Server thread/INFO]: <TheXeon> bed pls
+[01:29:13] [Server thread/INFO]: <therruss> ttonah
+[01:29:20] [Server thread/INFO]: <therruss> tget in bed with meh
+[01:29:22] [Server thread/INFO]: <Tonatiuh_> make the cable and ill make the controller and terminal
+[01:30:12] [Server thread/INFO]: <Tonatiuh_> Me dark cable
+[01:30:38] [Server thread/INFO]: <Tonatiuh_> ae 2
+[01:30:40] [Server thread/INFO]: <Tonatiuh_> dang
+[01:31:09] [Server thread/INFO]: <Tonatiuh_> nvm with the cable
+[01:32:15] [Server thread/INFO]: [TheXeon: Teleported TheXeon to -456.5,81.5,-152.5]
+[01:32:58] [Server thread/INFO]: <Tonatiuh_> whats the link for the ae 2
+[01:33:32] [Server thread/INFO]: <therruss> http://ae-mod.info/Getting-Started/
+[01:34:26] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [A bit rough around the edges]
+[01:35:24] [Server thread/INFO]: <Tonatiuh_> first we need to make the charged crystals
+[01:38:26] [Server thread/INFO]: <Tonatiuh_> this is complicated
+[01:41:41] [Server thread/INFO]: <Tonatiuh_> guys come here
+[01:41:58] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[01:42:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2143ms behind, skipping 42 tick(s)
+[01:42:28] [Server thread/INFO]: <Tonatiuh_> look
+[01:42:36] [Server thread/INFO]: <Tonatiuh_> lol
+[01:42:42] [Server thread/INFO]: <Tonatiuh_> HAHH
+[01:43:04] [Server thread/INFO]: [TheXeon: Teleported TheXeon to -456.5,80.5,-152.5]
+[01:43:13] [Server thread/WARN]: TheXeon moved too quickly! -10.97781396236934,0.009999990463242625,10.772572205483556 (10.97781396236934, 0.0784000015258789, 10.772572205483556)
+[01:45:21] [Server thread/INFO]: <Tonatiuh_> we look
+[01:45:29] [Server thread/INFO]: <Tonatiuh_> for more certus quartz
+[01:46:18] [Server thread/INFO]: <Tonatiuh_> ok
+[01:47:08] [Server thread/INFO]: <Tonatiuh_> you got food?
+[01:47:26] [Server thread/INFO]: <TheXeon> we forgot to supply you XD, come to me
+[01:47:46] [Server thread/INFO]: Tonatiuh_ burned to death
+[01:47:47] [Server thread/INFO]: <Tonatiuh_> you keep burning me
+[01:48:52] [Server thread/INFO]: [therruss: Teleported therruss to -253.5,180.5,0.5]
+[01:49:25] [Server thread/INFO]: <Tonatiuh_> we really need to find this certus Quartz
+[01:50:01] [Server thread/INFO]: <Tonatiuh_> i dont have permission
+[01:50:57] [Server thread/INFO]: <Tonatiuh_> what are you guys talking on?
+[01:51:15] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[01:54:13] [Server thread/WARN]: TheXeon moved wrongly!
+[01:54:24] [Server thread/INFO]: [TheXeon: Set own game mode to Creative Mode]
+[01:55:18] [Server thread/INFO]: <Tonatiuh_> microblocks
+[01:55:56] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [New Ore Miner]
+[01:56:06] [Server thread/INFO]: [TheXeon: Set own game mode to Survival Mode]
+[01:58:32] [Server thread/INFO]: <TheXeon> ima leave for today, cya around :D
+[01:58:36] [Server thread/INFO]: TheXeon lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: An established connection was aborted by the software in your host machine], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[01:58:36] [Server thread/INFO]: TheXeon left the game
+[01:58:43] [Server thread/INFO]: Tonatiuh_ suffocated in a wall
+[01:58:58] [Server thread/WARN]: therruss moved wrongly!
+[01:59:04] [Server thread/INFO]: <Tonatiuh_> i think i got the razor thing setup
+[01:59:47] [Server thread/INFO]: <Tonatiuh_> nope the thing will not work
+[02:00:08] [Server thread/INFO]: <Tonatiuh_> Do you have steam so we can talk through that?
+[02:01:46] [Server thread/WARN]: Tonatiuh_ moved wrongly!
+[02:01:49] [Server thread/INFO]: <Tonatiuh_> are you going to show me the world lol
+[02:02:06] [Server thread/INFO]: <therruss> tonah
+[02:02:09] [Server thread/INFO]: <therruss> my steam
+[02:02:09] [Server thread/INFO]: <Tonatiuh_> yes
+[02:02:12] [Server thread/INFO]: <therruss> is
+[02:02:18] [Server thread/INFO]: <therruss> magician type.0
+[02:02:56] [Server thread/INFO]: <Tonatiuh_> ok
+[02:04:35] [Server thread/INFO]: <Tonatiuh_> cant you make the seat better?
+[02:05:31] [Server thread/INFO]: <Tonatiuh_> wtf?
+[02:06:10] [Server thread/INFO]: <Tonatiuh_> my fps dropped so bad
+[02:08:07] [Server thread/INFO]: <therruss> tonah
+[02:08:15] [Server thread/INFO]: <therruss> you done the steam thing yet>
+[02:08:53] [Server thread/INFO]: <Tonatiuh_> theres a couple of people with the same name
+[02:09:04] [Server thread/INFO]: <therruss> whats ur stean
+[02:09:09] [Server thread/INFO]: <Tonatiuh_> Tonatiuh
+[02:09:20] [Server thread/INFO]: <therruss> http://steamcommunity.com/id/freedombear/
+[02:09:24] [Server thread/INFO]: <therruss> my steam link\
+[02:10:30] [Server thread/INFO]: <Tonatiuh_> done
+[02:11:18] [Server thread/INFO]: <Tonatiuh_> lol
+[02:11:28] [Server thread/INFO]: <Tonatiuh_> ya
+[02:11:32] [Server thread/INFO]: <Tonatiuh_> its good
+[02:11:46] [Server thread/INFO]: <Tonatiuh_> people sleeping around me
+[02:12:06] [Server thread/INFO]: <Tonatiuh_> lol
+[02:12:20] [Server thread/INFO]: <Tonatiuh_> nice
+[02:12:37] [Server thread/INFO]: <Tonatiuh_> ha
+[02:12:42] [Server thread/INFO]: <Tonatiuh_> sure
+[02:13:20] [Server thread/INFO]: <Tonatiuh_> ya
+[02:13:28] [Server thread/INFO]: <Tonatiuh_> what is it called?
+[02:14:33] [Server thread/INFO]: <Tonatiuh_> ok
+[02:14:50] [Server thread/INFO]: <Tonatiuh_> im down here
+[02:15:09] [Server thread/INFO]: <Tonatiuh_> go lower
+[02:15:15] [Server thread/INFO]: <Tonatiuh_> to the floor
+[02:15:27] [Server thread/INFO]: <Tonatiuh_> im on the ground
+[02:15:34] [Server thread/INFO]: <Tonatiuh_> pond
+[02:15:43] [Server thread/INFO]: <Tonatiuh_> right underneath lol
+[02:16:08] [Server thread/INFO]: <Tonatiuh_> im on
+[02:16:28] [Server thread/INFO]: <Tonatiuh_> gravity core?
+[02:16:48] [Server thread/INFO]: <Tonatiuh_> none taken
+[02:17:17] [Server thread/INFO]: <Tonatiuh_> lol
+[02:17:27] [Server thread/INFO]: <Tonatiuh_> lol
+[02:17:31] [Server thread/INFO]: Tonatiuh_ fell from a high place
+[02:17:37] [Server thread/INFO]: <Tonatiuh_> no parachute
+[02:17:44] [Server thread/INFO]: <Tonatiuh_> i dont
+[02:17:52] [Server thread/INFO]: <Tonatiuh_> clicked it once
+[02:18:25] [Server thread/INFO]: <Tonatiuh_> yup
+[02:18:45] [Server thread/INFO]: Tonatiuh_ fell from a high place
+[02:18:50] [Server thread/INFO]: <Tonatiuh_> lol
+[02:18:57] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[02:20:24] [Server thread/INFO]: <Tonatiuh_> im good
+[02:21:12] [Server thread/INFO]: <Tonatiuh_> Xeon shouldve put the dino mod
+[02:21:22] [Server thread/INFO]: <Tonatiuh_> lol
+[02:22:27] [Server thread/INFO]: <Tonatiuh_> all this and we still cant find Certus Quartz
+[02:22:57] [Server thread/INFO]: [therruss: Teleported therruss to -457.5,81.5,-163.5]
+[02:22:57] [Server thread/INFO]: <Tonatiuh_> ok
+[02:23:55] [Server thread/INFO]: <Tonatiuh_> lol
+[02:24:10] [Server thread/INFO]: Tonatiuh_ suffocated in a wall
+[02:24:46] [Server thread/INFO]: <Tonatiuh_> need to fly
+[02:24:57] [Server thread/INFO]: <Tonatiuh_> lol
+[02:25:24] [Server thread/INFO]: <Tonatiuh_> i do
+[02:25:26] [Server thread/INFO]: <Tonatiuh_> lol
+[02:26:12] [Server thread/INFO]: <Tonatiuh_> where
+[02:26:32] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[02:26:47] [Server thread/INFO]: Tonatiuh_ suffocated in a wall
+[02:26:50] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[02:26:53] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[02:27:50] [Server thread/INFO]: <Tonatiuh_> how do i get rid of my death points
+[02:28:45] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[02:28:51] [Server thread/INFO]: <Tonatiuh_> nice
+[02:28:54] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Shocking]
+[02:29:00] [Server thread/INFO]: <Tonatiuh_> i got the achieve
+[02:29:31] [Server thread/INFO]: therruss has just earned the achievement [Shocking]
+[02:29:34] [Server thread/INFO]: <Tonatiuh_> look at it on the floor
+[02:29:48] [Server thread/INFO]: <Tonatiuh_> look
+[02:30:53] [Server thread/INFO]: <Tonatiuh_> lol
+[02:33:23] [Server thread/INFO]: <Tonatiuh_> wait
+[02:33:53] [Server thread/INFO]: <Tonatiuh_> but hes not a rapper
+[02:34:09] [Server thread/INFO]: <Tonatiuh_> lol
+[02:34:44] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Sky of Beginning]
+[02:35:17] [Server thread/INFO]: <Tonatiuh_> what happen
+[02:35:38] [Server thread/INFO]: <Tonatiuh_> ya there in the chest
+[02:35:53] [Server thread/INFO]: <Tonatiuh_> the clear one
+[02:35:57] [Server thread/INFO]: <Tonatiuh_> lol
+[02:37:22] [Server thread/INFO]: <Tonatiuh_> ya
+[02:37:34] [Server thread/INFO]: <Tonatiuh_> one last thing
+[02:38:53] [Server thread/INFO]: <Tonatiuh_> lol
+[02:39:16] [Server thread/INFO]: <Tonatiuh_> lol
+[02:39:32] [Server thread/INFO]: <Tonatiuh_> why isnt this working
+[02:39:49] [Server thread/INFO]: <Tonatiuh_> stupid portal
+[02:39:59] [Server thread/INFO]: <Tonatiuh_> twilight portal
+[02:40:10] [Server thread/INFO]: <Tonatiuh_> we do
+[02:40:45] [Server thread/INFO]: therruss tried to swim in lava
+[02:40:54] [Server thread/INFO]: <Tonatiuh_> i just want the heads of the bosses
+[02:42:14] [Server thread/INFO]: <Tonatiuh_> lol
+[02:42:49] [Server thread/INFO]: <Tonatiuh_> dang
+[02:43:12] [Server thread/INFO]: <Tonatiuh_> i think its disabled
+[02:43:21] [Server thread/INFO]: <Tonatiuh_> do it
+[02:43:38] [Server thread/INFO]: [therruss: Set own game mode to Creative Mode]
+[02:44:12] [Server thread/INFO]: [therruss: Given [Twilight Forest Portal] * 64 to therruss]
+[02:44:12] [Server thread/INFO]: [therruss: Given [Twilight Forest Portal] * 64 to therruss]
+[02:44:12] [Server thread/INFO]: [therruss: Given [Twilight Forest Portal] * 64 to therruss]
+[02:44:23] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Twilight Portal]
+[02:44:23] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Twilight Arrival]
+[02:44:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 17349ms behind, skipping 346 tick(s)
+[02:44:41] [Server thread/INFO]: [therruss: Set own game mode to Survival Mode]
+[02:44:41] [Server thread/INFO]: [therruss: Set own game mode to Survival Mode]
+[02:44:44] [Server thread/INFO]: therruss has just earned the achievement [Twilight Portal]
+[02:44:44] [Server thread/INFO]: therruss has just earned the achievement [Twilight Arrival]
+[02:45:06] [Server thread/INFO]: <Tonatiuh_> wow
+[02:45:40] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[02:45:41] [Server thread/INFO]: <Tonatiuh_> you have coal
+[02:45:48] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[02:46:09] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Twilight Hunter]
+[02:46:17] [Server thread/INFO]: therruss has just earned the achievement [Twilight Hunter]
+[02:46:17] [Server thread/INFO]: therruss has just earned the achievement [Naga Hunter]
+[02:46:19] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Naga Hunter]
+[02:46:44] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[02:46:48] [Server thread/INFO]: <Tonatiuh_> thanks
+[02:47:11] [Server thread/INFO]: <Tonatiuh_> a hut
+[02:47:20] [Server thread/INFO]: <Tonatiuh_> yup
+[02:47:39] [Server thread/INFO]: <Tonatiuh_> found it
+[02:47:51] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[02:48:01] [Server thread/INFO]: <Tonatiuh_> cant
+[02:48:05] [Server thread/INFO]: <Tonatiuh_> go in
+[02:48:22] [Server thread/INFO]: <Tonatiuh_> let me see the trophy
+[02:48:26] [Server thread/INFO]: <Tonatiuh_> nvm
+[02:49:09] [Server thread/INFO]: <Tonatiuh_> they dont attack me
+[02:49:38] [Server thread/INFO]: therruss was killed by Twilight Lich using magic
+[02:49:38] [Server thread/INFO]: <Tonatiuh_> dopwn here
+[02:49:47] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[02:51:28] [Server thread/INFO]: <Tonatiuh_> hes just waving his hand
+[02:52:21] [Server thread/INFO]: therruss was killed by Twilight Lich using magic
+[02:52:24] [Server thread/INFO]: <Tonatiuh_> you can cheat in his scepter and maybe that will work
+[02:52:40] [Server thread/INFO]: <Tonatiuh_> nvm
+[02:52:56] [Server thread/INFO]: <Tonatiuh_> im breaking him
+[02:53:08] [Server thread/INFO]: <Tonatiuh_> hes breaking me lol
+[02:53:15] [Server thread/INFO]: Tonatiuh_ was killed by Twilight Lich using magic
+[02:53:43] [Server thread/INFO]: <Tonatiuh_> i cant tp im not oped
+[02:53:47] [Server thread/INFO]: [therruss: Unable to teleport because players are not in the same dimension]
+[02:53:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2035ms behind, skipping 40 tick(s)
+[02:53:59] [Server thread/INFO]: <Tonatiuh_> bring more coal
+[02:54:02] [Server thread/WARN]: therruss moved wrongly!
+[02:54:11] [Server thread/INFO]: [therruss: Teleported therruss to 44.5,36.5,260.5]
+[02:54:16] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[02:54:29] [Server thread/INFO]: <Tonatiuh_> hit back his thing
+[02:54:41] [Server thread/INFO]: <Tonatiuh_> it just happen
+[02:54:53] [Server thread/INFO]: <Tonatiuh_> ender
+[02:55:06] [Server thread/INFO]: <Tonatiuh_> nice
+[02:56:21] [Server thread/INFO]: <Tonatiuh_> thats it
+[02:56:34] [Server thread/INFO]: <Tonatiuh_> yup
+[02:58:26] [Server thread/INFO]: <Tonatiuh_> nice
+[02:58:31] [Server thread/INFO]: <Tonatiuh_> you getting eso
+[02:59:03] [Server thread/INFO]: <Tonatiuh_> ive been waiting for it for 1 year lol
+[02:59:10] [Server thread/INFO]: <Tonatiuh_> for esop
+[02:59:11] [Server thread/INFO]: <Tonatiuh_> eso
+[02:59:25] [Server thread/INFO]: <Tonatiuh_> since realease on pc
+[02:59:43] [Server thread/INFO]: <Tonatiuh_> lol
+[03:00:16] [Server thread/INFO]: <Tonatiuh_> lol
+[03:00:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2058ms behind, skipping 41 tick(s)
+[03:00:50] [Server thread/INFO]: <Tonatiuh_> damn it feels good to be a gangsta
+[03:01:38] [Server thread/INFO]: <Tonatiuh_> yup
+[03:02:01] [Server thread/INFO]: <Tonatiuh_> i need coal
+[03:02:17] [Server thread/INFO]: <Tonatiuh_> nope it got burned
+[03:03:02] [Server thread/INFO]: Tonatiuh_ suffocated in a wall
+[03:03:12] [Server thread/INFO]: <Tonatiuh_> yup
+[03:03:19] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[03:03:22] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[03:03:25] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[03:03:26] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[03:03:27] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[03:03:32] [Server thread/INFO]: <Tonatiuh_> lol
+[03:03:37] [Server thread/INFO]: <Tonatiuh_> im here
+[03:04:11] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[03:04:28] [Server thread/INFO]: <Tonatiuh_> yup
+[03:05:01] [Server thread/INFO]: <Tonatiuh_> to late its on fire
+[03:05:23] [Server thread/INFO]: <Tonatiuh_> come over here
+[03:06:01] [Server thread/INFO]: <Tonatiuh_> nice
+[03:06:52] [Server thread/INFO]: <Tonatiuh_> to the maze
+[03:07:05] [Server thread/INFO]: <Tonatiuh_> lol
+[03:07:32] [Server thread/INFO]: <Tonatiuh_> and more coal
+[03:08:02] [Server thread/WARN]: therruss moved wrongly!
+[03:08:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2753ms behind, skipping 55 tick(s)
+[03:08:10] [Server thread/INFO]: [therruss: Teleported therruss to -457.5,81.5,-163.5]
+[03:09:09] [Server thread/INFO]: <Tonatiuh_> 12
+[03:09:17] [Server thread/INFO]: <Tonatiuh_> lol
+[03:10:03] [Server thread/WARN]: therruss moved wrongly!
+[03:10:07] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:10:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8177ms behind, skipping 163 tick(s)
+[03:10:08] [Server thread/INFO]: <Tonatiuh_> ha
+[03:10:21] [Server thread/INFO]: <Tonatiuh_> thanks
+[03:11:01] [Server thread/INFO]: <Tonatiuh_> lol
+[03:11:17] [Server thread/INFO]: <Tonatiuh_> why do you have 2 health
+[03:11:34] [Server thread/INFO]: <Tonatiuh_> lol
+[03:11:45] [Server thread/INFO]: <Tonatiuh_> we cant enter that biome yet
+[03:11:55] [Server thread/INFO]: <Tonatiuh_> yup
+[03:12:07] [Server thread/INFO]: <Tonatiuh_> minitour guy
+[03:12:24] [Server thread/INFO]: <Tonatiuh_> in a cave
+[03:12:34] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[03:13:01] [Server thread/INFO]: <Tonatiuh_> lol
+[03:13:31] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:14:03] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Cow Tipper]
+[03:14:18] [Server thread/INFO]: <Tonatiuh_> WOW
+[03:15:20] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Shimmering Scale]
+[03:16:24] [Server thread/INFO]: <Tonatiuh_> whats that noise
+[03:16:31] [Server thread/INFO]: <Tonatiuh_> nvm
+[03:17:59] [Server thread/INFO]: <Tonatiuh_> true
+[03:18:17] [Server thread/INFO]: <Tonatiuh_> there is a spawn demon egg
+[03:18:56] [Server thread/INFO]: therruss has just earned the achievement [Bug Stomper]
+[03:18:57] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Bug Stomper]
+[03:20:31] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:20:44] [Server thread/INFO]: <Tonatiuh_> some cave
+[03:21:07] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [The Boots Are Mine!]
+[03:21:15] [Server thread/INFO]: <Tonatiuh_> lol
+[03:22:07] [Server thread/INFO]: <Tonatiuh_> i just started playing dota
+[03:22:24] [Server thread/INFO]: <Tonatiuh_> my pick
+[03:22:44] [Server thread/INFO]: <Tonatiuh_> good
+[03:22:50] [Server thread/INFO]: <Tonatiuh_> two stacks
+[03:23:03] [Server thread/INFO]: [therruss: Opped add]
+[03:23:08] [Server thread/INFO]: [therruss: Opped Tonatiuh_]
+[03:23:14] [Server thread/INFO]: <Tonatiuh_> thanks :p
+[03:23:30] [Server thread/INFO]: <Tonatiuh_> i wont do that
+[03:23:43] [Server thread/INFO]: <Tonatiuh_> ;)
+[03:24:07] [Server thread/INFO]: <Tonatiuh_> yup
+[03:24:37] [Server thread/INFO]: <Tonatiuh_> lol
+[03:24:45] [Server thread/INFO]: [Tonatiuh_: Teleported Tonatiuh_ to therruss]
+[03:24:57] [Server thread/INFO]: <Tonatiuh_> ohj
+[03:25:31] [Server thread/INFO]: <Tonatiuh_> idk
+[03:25:33] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[03:25:45] [Server thread/INFO]: <Tonatiuh_> no i think i found the spot
+[03:25:57] [Server thread/INFO]: <Tonatiuh_> yup
+[03:26:06] [Server thread/INFO]: <Tonatiuh_> its in this biome
+[03:27:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3530ms behind, skipping 70 tick(s)
+[03:27:33] [Server thread/INFO]: <Tonatiuh_> what happen
+[03:27:59] [Server thread/INFO]: <Tonatiuh_> no
+[03:28:01] [Server thread/INFO]: [therruss: Opped Tonatiuh_]
+[03:28:06] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:28:50] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:29:02] [Server thread/INFO]: <Tonatiuh_> lol
+[03:29:45] [Server thread/INFO]: <Tonatiuh_> you find them
+[03:31:14] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:31:48] [Server thread/INFO]: <Tonatiuh_> lol
+[03:32:39] [Server thread/INFO]: <Tonatiuh_> ok
+[03:32:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2740ms behind, skipping 54 tick(s)
+[03:33:39] [Server thread/INFO]: <Tonatiuh_> lol
+[03:33:42] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:33:52] [Server thread/INFO]: <Tonatiuh_> this was another maze
+[03:34:15] [Server thread/INFO]: <Tonatiuh_> naga
+[03:34:19] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:34:26] [Server thread/INFO]: <Tonatiuh_> i got him
+[03:35:30] [Server thread/INFO]: <Tonatiuh_> ope
+[03:35:32] [Server thread/INFO]: <Tonatiuh_> nope
+[03:35:46] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Naga Armorer]
+[03:37:12] [Server thread/INFO]: Beatrix Boneman was slain by therruss
+[03:37:18] [Server thread/INFO]: <Tonatiuh_> lol
+[03:37:38] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3932ms behind, skipping 78 tick(s)
+[03:37:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3987ms behind, skipping 79 tick(s)
+[03:38:17] [Server thread/INFO]: <Tonatiuh_> i dont have it
+[03:38:18] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[03:41:24] [Server thread/INFO]: <Tonatiuh_> i wanted that hat
+[03:41:26] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Lich Hunter]
+[03:41:26] [Server thread/INFO]: Tonatiuh_ has just earned the achievement [Touched by Undeath]
+[03:42:12] [Server thread/INFO]: therruss has just earned the achievement [Shimmering Scale]
+[03:43:10] [Server thread/INFO]: <Tonatiuh_> my army
+[03:43:43] [Server thread/INFO]: [therruss: Teleported Tonatiuh_ to therruss]
+[03:44:16] [Server thread/INFO]: <Tonatiuh_> we need the lichs scepter
+[03:44:32] [Server thread/INFO]: <Tonatiuh_> lol
+[03:45:40] [Server thread/INFO]: <Tonatiuh_> we need to find the lich agian
+[03:45:54] [Server thread/INFO]: <Tonatiuh_> we need his scepter to unlock biome
+[03:46:21] [Server thread/INFO]: <Tonatiuh_> yup
+[03:46:34] [Server thread/INFO]: <Tonatiuh_> brb
+[03:47:31] [Server thread/INFO]: <Tonatiuh_> im back
+[03:47:48] [Server thread/INFO]: <Tonatiuh_> lol
+[03:48:47] [Server thread/INFO]: <Tonatiuh_> scepter of life draining
+[03:49:40] [Server thread/INFO]: <Tonatiuh_> ya
+[03:50:04] [Server thread/INFO]: <Tonatiuh_> lol
+[03:50:32] [Server thread/INFO]: <Tonatiuh_> i have
+[03:51:13] [Server thread/INFO]: <Tonatiuh_> noce
+[03:51:49] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4683ms behind, skipping 93 tick(s)
+[03:51:57] [Server thread/INFO]: <Tonatiuh_> found one
+[03:52:00] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:53:12] [Server thread/INFO]: therruss has just earned the achievement [Lich Hunter]
+[03:53:13] [Server thread/INFO]: therruss has just earned the achievement [Touched by Undeath]
+[03:53:34] [Server thread/INFO]: <Tonatiuh_> this way
+[03:53:50] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:54:10] [Server thread/INFO]: <Tonatiuh_> yup
+[03:54:30] [Server thread/INFO]: <Tonatiuh_> the swamp bime
+[03:54:35] [Server thread/INFO]: <Tonatiuh_> biome
+[03:54:39] [Server thread/INFO]: <Tonatiuh_> it still works
+[03:55:10] [Server thread/INFO]: [Tonatiuh_: Teleported Tonatiuh_ to 26.5,37.5,249.5]
+[03:55:15] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:55:17] [Server thread/INFO]: <Tonatiuh_> tp to me
+[03:55:47] [Server thread/INFO]: <Tonatiuh_> wrong biome
+[03:57:04] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:57:21] [Server thread/INFO]: <Tonatiuh_> ya
+[03:57:46] [Server thread/INFO]: <Tonatiuh_> if you want
+[03:58:09] [Server thread/INFO]: <Tonatiuh_> yup
+[03:58:25] [Server thread/INFO]: <Tonatiuh_> we need to find the one with the flies things
+[03:58:45] [Server thread/INFO]: <Tonatiuh_> yup
+[03:59:04] [Server thread/INFO]: [therruss: Teleported therruss to Tonatiuh_]
+[03:59:31] [Server thread/INFO]: <Tonatiuh_> what is it
+[03:59:45] [Server thread/INFO]: <Tonatiuh_> yup
+[03:59:59] [Server thread/INFO]: <Tonatiuh_> idk
+[04:00:11] [Server thread/INFO]: <Tonatiuh_> they'll be mad
+[04:00:15] [Server thread/INFO]: <Tonatiuh_> lol
+[04:00:24] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3147ms behind, skipping 62 tick(s)
+[04:00:50] [Server thread/INFO]: <Tonatiuh_> never seen it
+[04:00:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2207ms behind, skipping 44 tick(s)
+[04:01:00] [Server thread/INFO]: <Tonatiuh_> nope
+[04:01:22] [Server thread/INFO]: <Tonatiuh_> nope
+[04:01:46] [Server thread/INFO]: <Tonatiuh_> hey i have to get off so peace
+[04:02:03] [Server thread/INFO]: Tonatiuh_ lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[04:02:03] [Server thread/INFO]: Tonatiuh_ left the game
+[04:02:22] [User Authenticator #6/INFO]: UUID of player Tonatiuh_ is 6dc7be8d-f842-4a48-ab8b-400c28c5d840
+[04:02:23] [Server thread/INFO]: therruss fell out of the world
+[04:02:26] [Server thread/INFO]: Tonatiuh_[/104.33.169.19:42367] logged in with entity id 1733120 at (1026.3765852550832, 103.84634880654895, 1049.1050121937383)
+[04:02:26] [Server thread/INFO]: Tonatiuh_ joined the game
+[04:02:43] [Server thread/WARN]: therruss moved wrongly!
+[04:02:43] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9399ms behind, skipping 187 tick(s)
+[04:02:44] [Server thread/INFO]: Tonatiuh_ fell out of the world
+[04:02:50] [Server thread/INFO]: [therruss: Teleported therruss to -457.5,81.5,-163.5]
+[04:03:20] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 7908ms behind, skipping 158 tick(s)
+[04:03:27] [Server thread/INFO]: <Tonatiuh_> alright then bye
+[04:03:32] [Server thread/WARN]: Tonatiuh_ moved wrongly!
+[04:03:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3675ms behind, skipping 73 tick(s)
+[04:03:57] [Server thread/INFO]: Tonatiuh_ lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[04:03:57] [Server thread/INFO]: Tonatiuh_ left the game
+[04:06:56] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2066ms behind, skipping 41 tick(s)
+[04:07:37] [Server thread/INFO]: therruss lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[04:07:37] [Server thread/INFO]: therruss left the game
