@@ -1,7 +1,15 @@
 [
   {
+    "uuid": "4391c8c0-57c0-410e-a061-7f5018c70ddd",
+    "name": "Whimsicorn"
+  },
+  {
     "uuid": "dc0e01fb-2024-4bd7-a2e8-cf3c9eb3b48d",
     "name": "_southpaw"
+  },
+  {
+    "uuid": "f9a67aa7-433f-4a9f-8c77-2e40b8d8870c",
+    "name": "slapperino"
   },
   {
     "uuid": "795b7a4f-9ca5-4e26-8a1a-4ac27efd147b",
@@ -24,7 +32,15 @@
     "name": "therruss"
   },
   {
+    "uuid": "c362f042-f4c1-4e69-a086-50a707c22f50",
+    "name": "pretzelguy1"
+  },
+  {
     "uuid": "88492c09-9c10-4a8a-956a-b03f559430ef",
     "name": "ElitePlayah"
+  },
+  {
+    "uuid": "b05e5315-8f5e-4e37-8a82-9b8cecd9fff7",
+    "name": "Gatorgamer007"
   }
 ]
